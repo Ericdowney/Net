@@ -3,5 +3,5 @@ import XCTest
 import NetTests
 
 var tests = [XCTestCaseEntry]()
-tests += NetTests.allTests()
+tests += AnyEncodable.allTests()
 XCTMain(tests)
